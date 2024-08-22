@@ -10,6 +10,8 @@ github.com/pedrosouza458/go-open-graph-scraper v0.0.0-20240822134923-8a13351b537
 github.com/pedrosouza458/go-open-graph-scraper v0.0.0-20240822134923-8a13351b537c/go.mod h1:5yW6VyfMmWrOgZZ0tZHIPcT6knJ3/xoZLPFQ1iPy6QE=
 github.com/pedrosouza458/go-open-graph-scraper v0.0.0-20240822151015-64d5728e7d63 h1:qvn1tXcGRCygBeU1LFqbywE25Ow/M9uSnAI4AGa6C8Q=
 github.com/pedrosouza458/go-open-graph-scraper v0.0.0-20240822151015-64d5728e7d63/go.mod h1:5yW6VyfMmWrOgZZ0tZHIPcT6knJ3/xoZLPFQ1iPy6QE=
+github.com/pedrosouza458/go-open-graph-scraper v0.0.0-20240822155351-ccb6d3b37859 h1:NR81Fakg3UWjU2eyqQeqAZo137EWz5nOOrEkm8DLkIk=
+github.com/pedrosouza458/go-open-graph-scraper v0.0.0-20240822155351-ccb6d3b37859/go.mod h1:5yW6VyfMmWrOgZZ0tZHIPcT6knJ3/xoZLPFQ1iPy6QE=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod h1:GvvjBRRGRdwPK5ydBHafDWAxML/pGHZbMvKqRZ5+Abc=

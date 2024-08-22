@@ -33,9 +33,6 @@ curl 'http://localhost:8080/websites?url=https://github.com/pedrosouza458/go-ope
 ### Response
 
 ```json
-// 20240822124702
-// http://localhost:8080/websites?url=https://github.com/pedrosouza458/go-open-graph-scraper
-
 {
   "Descpription": "Go-Open-Graph-Scraper is a go package to get metadata from websites easily, also returning formatted logos and names for any compatible website. - pedrosouza458/go-open-graph-scraper",
   "Img": "https://opengraph.githubassets.com/50e5a16d77647cd090085c7d7daacdac42b22d8109d2095fe22cce2606e345f1/pedrosouza458/go-open-graph-scraper",

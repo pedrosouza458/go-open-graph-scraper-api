@@ -3,7 +3,7 @@
 This is a wrapper to use my package Golang Open Graph Scraper in api, to let users access the functions without needing to use Go or to install the package, docs and deploy are coming soon.
 
 ### Run this code Locally
-```git
+```curl
 git clone https://github.com/pedrosouza458/go-open-graph-scraper-api
 ```
 

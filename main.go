@@ -54,22 +54,22 @@ func websiteHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		video, err := scraper.GetWebsiteVideo(url)
 		if err != nil {
-			fmt.Fprintf(w, "Error fetching video: %v\n", err)
+			fmt.Fprintf(w, "Error fetching vudei: %v\n", err)
 			return
 		}
 		locale, err := scraper.GetWebsiteLocale(url)
 		if err != nil {
-			fmt.Fprintf(w, "Error fetching locale: %v\n", err)
+			fmt.Fprintf(w, "Error fetching type: %v\n", err)
 			return
 		}
 		json.NewEncoder(w).Encode(map[string]string{
-			"Logo":        logo,
-			"Name":        name,
-			"Img":         img,
-			"Title":       title,
-			"Description": description,
-			"Video":       video,
-			"Type":        type_name,
+			"logo":        logo,
+			"name":        name,
+			"img":         img,
+			"video":       video,
+			"title":       title,
+			"description": description,
+			"type":        type_name,
 			"locale":      locale,
 		})
 	}

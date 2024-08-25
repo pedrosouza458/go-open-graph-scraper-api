@@ -2,6 +2,15 @@
 
 This is a wrapper to use my package Golang Open Graph Scraper in api, to let users access the functions without needing to use Go or to install the package, docs and deploy are coming soon.
 
+  <p>
+  <a href="https://github.com/pedrosouza458/go-open-graph-scraper-api/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/pedrosouza458/go-open-graph-scraper-api" alt="GitHub License" />
+  </a>
+  <a href="https://github.com/pedrosouza458/go-open-graph-scraper-api/commits/main/">
+    <img src="https://img.shields.io/github/last-commit/pedrosouza458/go-open-graph-scraper-api/main" alt="GitHub Last Commit" />
+  </a>
+</p>
+
 ### Run this code Locally
 ```curl
 git clone https://github.com/pedrosouza458/go-open-graph-scraper-api

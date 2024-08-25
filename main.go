@@ -19,7 +19,12 @@ type Response struct {
 }
 
 func websiteHandler(w http.ResponseWriter, r *http.Request) {
+
+	w.Header().Set("Access-Control-Allow-Origin", "*") // Adjust the origin as needed
+	w.Header().Set("Access-Control-Allow-Methods", "GET, OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
 	w.Header().Set("Content-Type", "application/json")
+
 	url := r.URL.Query().Get("url")
 	if url != "" {
 		logo, err := scraper.GetWebsiteLogo(url)
